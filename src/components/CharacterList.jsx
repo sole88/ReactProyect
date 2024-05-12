@@ -24,9 +24,9 @@ export const CharacterList = () => {
                 </div>) : (
                 <div className="row">
                     <div className="=col-md-4">
-                        {characters.map((character) => {
+                        {characters.map((character) => (
                             <Character key={character.id} characterMap={character} />
-                        })}</div>
+                        ))}</div>
                 </div>
             )}
 
